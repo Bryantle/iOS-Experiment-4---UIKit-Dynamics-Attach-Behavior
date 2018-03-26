@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047A41E120697C3D00B0AD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A41E020697C3D00B0AD21 /* AppDelegate.swift */; };
+		047A41E320697C3D00B0AD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A41E220697C3D00B0AD21 /* ViewController.swift */; };
+		047A41E620697C3D00B0AD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A41E420697C3D00B0AD21 /* Main.storyboard */; };
+		047A41E820697C3D00B0AD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A41E720697C3D00B0AD21 /* Assets.xcassets */; };
+		047A41EB20697C3D00B0AD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A41E920697C3D00B0AD21 /* LaunchScreen.storyboard */; };
+		047A41F620697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A41F520697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorTests.swift */; };
+		047A420120697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A420020697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047A41F220697C3D00B0AD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047A41D520697C3D00B0AD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047A41DC20697C3D00B0AD21;
+			remoteInfo = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+		};
+		047A41FD20697C3D00B0AD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047A41D520697C3D00B0AD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047A41DC20697C3D00B0AD21;
+			remoteInfo = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047A41DD20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Experiment 4 - UIKit Dynamics Attach Behavior.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A41E020697C3D00B0AD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047A41E220697C3D00B0AD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047A41E520697C3D00B0AD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047A41E720697C3D00B0AD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047A41EA20697C3D00B0AD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047A41EC20697C3D00B0AD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A41F120697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A41F520697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorTests.swift"; sourceTree = "<group>"; };
+		047A41F720697C3D00B0AD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A41FC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A420020697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorUITests.swift"; sourceTree = "<group>"; };
+		047A420220697C3D00B0AD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A41DA20697C3D00B0AD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A41EE20697C3D00B0AD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A41F920697C3D00B0AD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047A41D420697C3D00B0AD21 = {
+			isa = PBXGroup;
+			children = (
+				047A41DF20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior */,
+				047A41F420697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests */,
+				047A41FF20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests */,
+				047A41DE20697C3D00B0AD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047A41DE20697C3D00B0AD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047A41DD20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior.app */,
+				047A41F120697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests.xctest */,
+				047A41FC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047A41DF20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				047A41E020697C3D00B0AD21 /* AppDelegate.swift */,
+				047A41E220697C3D00B0AD21 /* ViewController.swift */,
+				047A41E420697C3D00B0AD21 /* Main.storyboard */,
+				047A41E720697C3D00B0AD21 /* Assets.xcassets */,
+				047A41E920697C3D00B0AD21 /* LaunchScreen.storyboard */,
+				047A41EC20697C3D00B0AD21 /* Info.plist */,
+			);
+			path = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			sourceTree = "<group>";
+		};
+		047A41F420697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests */ = {
+			isa = PBXGroup;
+			children = (
+				047A41F520697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorTests.swift */,
+				047A41F720697C3D00B0AD21 /* Info.plist */,
+			);
+			path = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests";
+			sourceTree = "<group>";
+		};
+		047A41FF20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047A420020697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorUITests.swift */,
+				047A420220697C3D00B0AD21 /* Info.plist */,
+			);
+			path = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047A41DC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A420520697C3D00B0AD21 /* Build configuration list for PBXNativeTarget "iOS Experiment 4 - UIKit Dynamics Attach Behavior" */;
+			buildPhases = (
+				047A41D920697C3D00B0AD21 /* Sources */,
+				047A41DA20697C3D00B0AD21 /* Frameworks */,
+				047A41DB20697C3D00B0AD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			productName = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			productReference = 047A41DD20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047A41F020697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A420820697C3D00B0AD21 /* Build configuration list for PBXNativeTarget "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests" */;
+			buildPhases = (
+				047A41ED20697C3D00B0AD21 /* Sources */,
+				047A41EE20697C3D00B0AD21 /* Frameworks */,
+				047A41EF20697C3D00B0AD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047A41F320697C3D00B0AD21 /* PBXTargetDependency */,
+			);
+			name = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests";
+			productName = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests";
+			productReference = 047A41F120697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047A41FB20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A420B20697C3D00B0AD21 /* Build configuration list for PBXNativeTarget "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests" */;
+			buildPhases = (
+				047A41F820697C3D00B0AD21 /* Sources */,
+				047A41F920697C3D00B0AD21 /* Frameworks */,
+				047A41FA20697C3D00B0AD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047A41FE20697C3D00B0AD21 /* PBXTargetDependency */,
+			);
+			name = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests";
+			productName = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests";
+			productReference = 047A41FC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047A41D520697C3D00B0AD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					047A41DC20697C3D00B0AD21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					047A41F020697C3D00B0AD21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047A41DC20697C3D00B0AD21;
+					};
+					047A41FB20697C3D00B0AD21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 047A41DC20697C3D00B0AD21;
+					};
+				};
+			};
+			buildConfigurationList = 047A41D820697C3D00B0AD21 /* Build configuration list for PBXProject "iOS Experiment 4 - UIKit Dynamics Attach Behavior" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047A41D420697C3D00B0AD21;
+			productRefGroup = 047A41DE20697C3D00B0AD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047A41DC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior */,
+				047A41F020697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests */,
+				047A41FB20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047A41DB20697C3D00B0AD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A41EB20697C3D00B0AD21 /* LaunchScreen.storyboard in Resources */,
+				047A41E820697C3D00B0AD21 /* Assets.xcassets in Resources */,
+				047A41E620697C3D00B0AD21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A41EF20697C3D00B0AD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A41FA20697C3D00B0AD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047A41D920697C3D00B0AD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A41E320697C3D00B0AD21 /* ViewController.swift in Sources */,
+				047A41E120697C3D00B0AD21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A41ED20697C3D00B0AD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A41F620697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047A41F820697C3D00B0AD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A420120697C3D00B0AD21 /* iOS_Experiment_4___UIKit_Dynamics_Attach_BehaviorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047A41F320697C3D00B0AD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047A41DC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior */;
+			targetProxy = 047A41F220697C3D00B0AD21 /* PBXContainerItemProxy */;
+		};
+		047A41FE20697C3D00B0AD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047A41DC20697C3D00B0AD21 /* iOS Experiment 4 - UIKit Dynamics Attach Behavior */;
+			targetProxy = 047A41FD20697C3D00B0AD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047A41E420697C3D00B0AD21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A41E520697C3D00B0AD21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047A41E920697C3D00B0AD21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A41EA20697C3D00B0AD21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047A420320697C3D00B0AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047A420420697C3D00B0AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047A420620697C3D00B0AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Experiment 4 - UIKit Dynamics Attach Behavior/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryant.iOS-Experiment-4---UIKit-Dynamics-Attach-Behavior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047A420720697C3D00B0AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Experiment 4 - UIKit Dynamics Attach Behavior/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryant.iOS-Experiment-4---UIKit-Dynamics-Attach-Behavior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047A420920697C3D00B0AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryant.iOS-Experiment-4---UIKit-Dynamics-Attach-BehaviorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Experiment 4 - UIKit Dynamics Attach Behavior.app/iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			};
+			name = Debug;
+		};
+		047A420A20697C3D00B0AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryant.iOS-Experiment-4---UIKit-Dynamics-Attach-BehaviorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Experiment 4 - UIKit Dynamics Attach Behavior.app/iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			};
+			name = Release;
+		};
+		047A420C20697C3D00B0AD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryant.iOS-Experiment-4---UIKit-Dynamics-Attach-BehaviorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			};
+			name = Debug;
+		};
+		047A420D20697C3D00B0AD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryant.iOS-Experiment-4---UIKit-Dynamics-Attach-BehaviorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Experiment 4 - UIKit Dynamics Attach Behavior";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047A41D820697C3D00B0AD21 /* Build configuration list for PBXProject "iOS Experiment 4 - UIKit Dynamics Attach Behavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A420320697C3D00B0AD21 /* Debug */,
+				047A420420697C3D00B0AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A420520697C3D00B0AD21 /* Build configuration list for PBXNativeTarget "iOS Experiment 4 - UIKit Dynamics Attach Behavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A420620697C3D00B0AD21 /* Debug */,
+				047A420720697C3D00B0AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A420820697C3D00B0AD21 /* Build configuration list for PBXNativeTarget "iOS Experiment 4 - UIKit Dynamics Attach BehaviorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A420920697C3D00B0AD21 /* Debug */,
+				047A420A20697C3D00B0AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A420B20697C3D00B0AD21 /* Build configuration list for PBXNativeTarget "iOS Experiment 4 - UIKit Dynamics Attach BehaviorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A420C20697C3D00B0AD21 /* Debug */,
+				047A420D20697C3D00B0AD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047A41D520697C3D00B0AD21 /* Project object */;
+}
