@@ -37,10 +37,19 @@
                             <outletCollection property="gestureRecognizers" destination="NnE-1e-wPu" appends="YES" id="J7M-P0-tQ4"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="redView" destination="cto-FH-Vyp" id="CDY-2h-hCO"/>
+                        <outlet property="smallView" destination="Una-mv-Rh6" id="PBb-Xd-Hpl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="NnE-1e-wPu"/>
+                <tapGestureRecognizer id="NnE-1e-wPu">
+                    <connections>
+                        <action selector="handleTap:" destination="BYZ-38-t0r" id="eeb-Ag-u4z"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
